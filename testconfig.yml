@@ -1,0 +1,9 @@
+services:
+  proxmox:
+    type: http
+    url: https://23.142.248.10:8006/api2/json/
+    retries: true
+http:
+  host: "127.0.0.1"
+  port: 8000
+cron_schedule: "*/1 * * * *"
